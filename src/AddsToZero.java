@@ -7,7 +7,7 @@ public class AddsToZero {
 			for (int j = i + 1; j < ar.length; j++) {
 				for (int j2 = j + 1; j2 < ar.length; j2++) {
 					if (ar[i] + ar[j] + ar[j2] == 0) {
-						System.out.println(ar[i]+" + "+ar[j]+" + "+ar[j2]+" = 0");
+						System.out.println(ar[i] + " + " + ar[j] + " + " + ar[j2] + " = 0");
 						count++;
 					}
 				}
